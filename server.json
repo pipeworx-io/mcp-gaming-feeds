@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/gaming-feeds",
+  "title": "Gaming Feeds",
+  "description": "Gaming Feeds MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/gaming-feeds",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-gaming-feeds",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/gaming-feeds/mcp"
+    }
+  ]
+}
