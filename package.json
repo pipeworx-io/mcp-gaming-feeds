@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-gaming-feeds",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gaming Feeds MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-gaming-feeds": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "gaming-feeds"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-gaming-feeds"
+    "url": "git+https://github.com/pipeworx-io/mcp-gaming-feeds.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-8152267418c0c1b20f319ca5297938ebfc7e06d87978ab32ebe2f44176f07a88",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }
