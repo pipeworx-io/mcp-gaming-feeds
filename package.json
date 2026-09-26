@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-gaming-feeds",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Gaming Feeds MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8152267418c0c1b20f319ca5297938ebfc7e06d87978ab32ebe2f44176f07a88",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-bc70589d56fad8eb6cf8dbec3db9c8e8e098b68fc51ea68e7266a67ac937bd45",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
